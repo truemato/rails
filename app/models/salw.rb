@@ -1,0 +1,2 @@
+class Salw < ApplicationRecord
+end

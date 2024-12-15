@@ -1,0 +1,27 @@
+= ..rreessccuuee
+
+(from gem concurrent-ruby-1.3.4)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  PPrroommiissee
+------------------------------------------------------------------------
+  rescue(&block)
+
+------------------------------------------------------------------------
+
+Chain onto this promise an action to be undertaken on failure
+(rejection).
+
+@yield The block to execute
+
+@return [Promise] self
+
+
+(from gem concurrent-ruby-1.3.4)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  FFuuttuurree
+------------------------------------------------------------------------
+  rescue(*args, &task)
+
+------------------------------------------------------------------------
+
+@!macro promises.shortcut.on @return [Future]
+
+
